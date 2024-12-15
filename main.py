@@ -18,7 +18,7 @@ def start_game():
     guess_entry.delete(0, tk.END)
 
 # Funkcja do sprawdzenia zgadywanej liczby
-          def check_guess(event=None):  # Dodajemy event, by obsłużyć zdarzenie Enter
+def check_guess(event=None):  # Dodajemy event, by obsłużyć zdarzenie Enter
     global attempts
     try:
         guess = int(guess_entry.get())
